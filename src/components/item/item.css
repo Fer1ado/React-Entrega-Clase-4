@@ -16,6 +16,9 @@ h3{
 }
 
 p{
-    height: 70px;
+    padding-top: 11px;
 }
 
+h5{
+    margin-top: 0px;
+}

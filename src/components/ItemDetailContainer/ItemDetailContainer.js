@@ -26,7 +26,8 @@ return (
         <ItemDetail name={producto?.fields.nombre} 
         imagen={producto?.fields.image.fields.file.url} 
         descripcion={producto?.fields.descripcion} 
-        stock={producto?.fields.stock}/>
+        stock={producto?.fields.stock}
+        id={producto?.sys.id}/>
     </div>
     )
 }

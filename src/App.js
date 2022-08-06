@@ -1,7 +1,7 @@
 import './App.css';
-import {useState} from 'react'
+
 import Navbar from './components/Navbar/Navbar';
-import Counter from './components/Counter/Counter';
+
 import ItemListContainer from './components/ItemListContainer/ItemListContainer';
 //import Button from './components/Button/Button';
 import ItemDetailContainer from "./components/ItemDetailContainer/ItemDetailContainer"
@@ -15,7 +15,8 @@ function App() {
       <BrowserRouter>
         <Navbar />
           <Routes>
-            <Route path="/" element={<ItemListContainer greeting="Listado de Productos Completo" />} />
+            <Route path="/" element={<ItemListContainer greeting="Listado de Productos Zima" />} />
+            <Route path="/category/:IdCategoria" element={<ItemListContainer greeting="Productos Filtrados" />} />
             <Route path="/details/:IdProducto" element={<ItemDetailContainer />} />
           </Routes>
       </BrowserRouter>

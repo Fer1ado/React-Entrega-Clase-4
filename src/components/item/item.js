@@ -43,15 +43,16 @@ const Item = ({prod, sumatotal}) =>{
     <>
     <div className="card z-depth-4">
       <div className="card-image">
-        <img src={prod.fields.image.fields.file.url}/>
-        <span className="card-title">{prod.fields.nombre.toUpperCase()}</span>
+        <img src={prod.fields.image.fields.file.url} alt={prod.fields.image.fields.file.url}/>
+        <span className="card-title"></span>
         <Link to={`/details/${prod.sys.id}`} className="btn-floating halfway-fab waves-effect waves-light purple" title="Ver detalle del producto"><i className="material-icons">add</i></Link>
       </div>
       
       <div className="card-content">
-        <p>{prod.fields.descripcion} <br></br> stock: {prod.fields.stock}  Total en Carrito: <b>{count}</b></p>
+        <h5> {prod.fields.nombre.toUpperCase()}</h5>
+        {/* <p>stock: {prod.fields.stock}  Total en Carrito: <b>{count}</b></p> */}
       </div>
-      <Counter stock={prod.fields.stock} key={prod.sys.id} agregar={sumaCarro}/>
+      {/* <Counter stock={prod.fields.stock} key={prod.sys.id} agregar={sumaCarro}/> */}
 
     </div>
     </>    

@@ -9,3 +9,7 @@ nav{
     display: flex;
     justify-content: space-between;
 }
+
+.alinearlinks{
+    display: flex;
+}

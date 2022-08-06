@@ -22,7 +22,7 @@ const Counter = ({stock, agregar}) => { //stock y onadd son props que llegan des
             <a className="btn-flat-medium waves-effect waves-purple lighten-2" onClick={decrement}><i className="material-icons chevron">chevron_left</i></a>
             <h3 className="numero">{count}</h3>
             <a className="btn-flat-medium waves-effect waves-purple lighten-2" onClick={increment}><i className="material-icons chevron">chevron_right</i></a>
-            <a className="btn-flat-medium  waves-effect waves-purple white  " title="Agregar al Carrito" onClick={() => agregar(count)} ><i className="material-icons icono">add_shopping_cart</i></a>
+            <a className="btn-flat-medium  waves-effect waves-purple white " title="Agregar al Carrito" onClick={() => agregar(count)} ><i className="material-icons icono">add_shopping_cart</i></a>
         </div>
     )
 }

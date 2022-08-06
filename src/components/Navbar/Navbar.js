@@ -2,6 +2,7 @@
 import './Navbar.css'
 import React from 'react'
 import CartWidget from '../CartWidget/CartWidget'
+import { Link } from "react-router-dom"
 
 const Navbar = () => {
 
@@ -9,12 +10,13 @@ const Navbar = () => {
   
     <nav className="purple darken-2 z-depth-5 ">
         <div className="nav-wrapper alineacion">
-         <a href="#" className=""><img src="../../images/logo2.svg"/></a>
-          <ul className="right hide-on-small-and-down">
-            <li><a href="sass.html">Platos</a></li>
-            <li><a href="sass.html">Cuencos</a></li>
-            <li><a href="sass.html">Tazas</a></li>
-            <li><a href="sass.html"><i className="material-icons">search</i></a></li>
+         <Link to='/' className=""><img src="../../images/logo2.svg"/></Link>
+          <ul className="right hide-on-small-and-down alinearlinks">
+            <Link to='/category/platos' >Platos </Link>
+            <Link to='/category/cuencos'>Cuencos </Link>
+            <Link to='/category/tazas' >Tazas </Link>
+            <Link to='/category/varios' >Varios </Link>
+            <a><i className="material-icons">search</i></a>
             <CartWidget />
            </ul>
         </div>

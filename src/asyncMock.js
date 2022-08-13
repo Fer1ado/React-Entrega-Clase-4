@@ -3,7 +3,7 @@ const products = [
     "sys": { "id": "1" },
     "fields": {
       "nombre": "posa macetas decorativo",
-      "importe": 600.99,
+      "importe": 600,
       "categoria": "cuencos",
       "stock": 15,
       "descripcion": "estas bases de maceta únicas son especiales para tu jardín",
@@ -18,7 +18,7 @@ const products = [
     "sys": { "id": "2" },
     "fields": {
       "nombre": "platos playos",
-      "importe": 900.99,
+      "importe": 900,
       "categoria": "platos",
       "stock": 53,
       "descripcion": "Este juego de platos es el ideal para destacar tus comidas",
@@ -33,7 +33,7 @@ const products = [
     "sys": { "id": "3" },
     "fields": {
       "nombre": "Platos de Postre",
-      "importe": 1300.99,
+      "importe": 1300,
       "categoria": "platos",
       "stock": 24,
       "descripcion": "Nuestros platos de postre son pequeños y versátiles",
@@ -48,7 +48,7 @@ const products = [
     "sys": { "id": "5" },
     "fields": {
       "nombre": "Plato de Gres",
-      "importe": 1800.99,
+      "importe": 1800,
       "categoria": "platos",
       "stock": 6,
       "descripcion": "Los platos de Gres son especiales por su dureza y esmaltado distintivo",
@@ -63,7 +63,7 @@ const products = [
     "sys": { "id": "6" },
     "fields": {
       "nombre": "Tazas de te chino",
-      "importe": 500.99,
+      "importe": 500,
       "categoria": "tazas",
       "stock": 19,
       "descripcion": "Las tasas de te chinas tienen un trabajo especial de esmalte para bebidas calientes",
@@ -78,7 +78,7 @@ const products = [
     "sys": { "id": "7" },
     "fields": {
       "nombre": "Cuencos de Terracota",
-      "importe": 700.99,
+      "importe": 700,
       "categoria": "cuencos",
       "stock": 84,
       "descripcion": "Los cuencos de la tierra son los indicados para organizar tus cosas",
@@ -93,7 +93,7 @@ const products = [
     "sys": { "id": "8" },
     "fields": {
       "nombre": "Cuencos de Rio",
-      "importe": 800.99,
+      "importe": 800,
       "categoria": "cuencos",
       "stock": 12,
       "descripcion": "Los cuencos del rio estan especialmente preparados para líquidos fermentados",
@@ -108,7 +108,7 @@ const products = [
     "sys": { "id": "9" },
     "fields": {
       "nombre": "Juego de mesa",
-      "importe": 1500.99,
+      "importe": 1500,
       "categoria": "varios",
       "stock": 16,
       "descripcion": "los juegos de terracota vienen genial para el uso diario en la casa",

@@ -7,13 +7,13 @@ const ItemDetailContainer = () => {
     const [producto, setProducto] = useState()
 
     const {IdProducto} = useParams()
-   
+
 
     useEffect(()=>{
         getProductById(IdProducto)
         .then(res => {
             setProducto(res)
-           
+
             
     })
     .catch(error =>{
@@ -27,7 +27,8 @@ return (
         imagen={producto?.fields.image.fields.file.url} 
         descripcion={producto?.fields.descripcion} 
         stock={producto?.fields.stock}
-        id={producto?.sys.id}/>
+        id={producto?.sys.id} precio={producto?.fields.importe}/>
+        
     </div>
     )
 }

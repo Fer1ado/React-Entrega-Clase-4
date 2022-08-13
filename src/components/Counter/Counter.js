@@ -2,8 +2,8 @@ import "./counter.css"
 import { useState, useEffect} from 'react'
 
 
-const Counter = ({stock, agregar}) => { //stock y onadd son props que llegan desde el componente padre
-    const [count, setCount] = useState(1)
+const Counter = ({stock, agregar, initial = 1}) => { //stock y onadd son props que llegan desde el componente padre
+    const [count, setCount] = useState(initial)
 
     
     const increment = () => {
